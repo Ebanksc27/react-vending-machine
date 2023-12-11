@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e2e2e2; 
+}
+
+/* Vending machine container */
+.vending-machine {
+  width: 300px; 
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; 
+  border: 2px solid #000; 
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Individual snack item styling */
+.snack-link {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0; 
+  color: #333; 
+  text-decoration: none; 
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+}
+
+.snack-link:hover {
+  background-color: #d0d0d0; 
+}
+
+/* Active snack item styling */
+.snack-link-active {
+  font-weight: bold;
+  background-color: #d0d0d0;
+}
+
+/* Snack component styling */
+.snack-component {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Go back link styling */
+.snack-component a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.snack-component a:hover {
+  background-color: #d0d0d0;
+}
+
